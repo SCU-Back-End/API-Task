@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "student-doctor-api",
   "version": "1.0.0",
   "description": "Simple Node.js API to manage students and doctors",
@@ -14,5 +15,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.0"
+=======
+  "dependencies": {
+    "express": "^5.1.0"
+>>>>>>> upstream/main
   }
 }
