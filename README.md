@@ -20,6 +20,7 @@ Built with **MVC architecture**, **MongoDB** (via Mongoose), **Prettier**, **ESL
 - [API Reference](#api-reference)
 - [Contributing](#contributing)
 - [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 ---
 
