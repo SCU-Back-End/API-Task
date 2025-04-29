@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "ef69a93e-cbb5-4082-baec-643b2fa44572",
+		"name": "api-student-doctor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44260994",
+		"_collection_link": "https://ahmedfaraj-5953785.postman.co/workspace/Ahmed-Faraj's-Workspace~45313734-ca6f-479a-8ac0-86eec0b74c25/collection/44260994-ef69a93e-cbb5-4082-baec-643b2fa44572?action=share&source=collection_link&creator=44260994"
+	},
+	"item": [
+		{
+			"name": "Add hardcoded student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/students/hardcoded",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"students",
+						"hardcoded"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a new student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ali\",\r\n    \"age\": 22,\r\n    \"level\": \"Senior\",\r\n    \"address\": \"Cairo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a student",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/students/:0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"students",
+						":0"
+					],
+					"variable": [
+						{
+							"key": "0",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a new doctor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/doctors?name=DrAhmed&age=40&phone=0123456789",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"doctors"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "DrAhmed"
+						},
+						{
+							"key": "age",
+							"value": "40"
+						},
+						{
+							"key": "phone",
+							"value": "0123456789"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update doctor’s name",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/doctors/update-name?oldName=DrAhmed&newName=DrMohamed",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"doctors",
+						"update-name"
+					],
+					"query": [
+						{
+							"key": "oldName",
+							"value": "DrAhmed"
+						},
+						{
+							"key": "newName",
+							"value": "DrMohamed"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all students and doctors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
