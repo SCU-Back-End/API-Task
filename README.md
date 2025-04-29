@@ -165,3 +165,9 @@ http://localhost:8000/api-docs
 ## License
 
 This project is licensed under the [MIT License](LICENSE)
+
+---
+
+## Acknowledgements
+
+**Dr. Mahmoud Bakrey** : For his dedicated support, insightful guidance during the project design phase, and invaluable hands-on assistance that greatly contributed to the success of this project.
