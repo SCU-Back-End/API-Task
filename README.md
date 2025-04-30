@@ -96,7 +96,7 @@ API-Task/
 │   ├── doctorsRoutes.js
 │   └── allRoutes.js
 └── postman/
-    └── API-Task.postman_collection.json
+    └── api-student-doctor.postman_collection.json
 ```
 
 ---
