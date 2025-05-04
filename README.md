@@ -8,6 +8,17 @@ Built with **MVC architecture**, **MongoDB** (via Mongoose), **Prettier**, **ESL
 
 ---
 
+## Demo Video
+
+<a href="https://drive.google.com/file/d/1-7442YOoIGn83sBmpcbVqJLNWYozhdoI/view?usp=drive_link">
+  <img src="assets/thumbnail.jpg" alt="Project Demo Thumbnail" width="300px">
+</a>
+
+👉 [`Click here to watch the demo video`](https://drive.google.com/file/d/1-7442YOoIGn83sBmpcbVqJLNWYozhdoI/view?usp=drive_link)
+
+
+---
+
 ## Table of Contents
 
 - [Features](#features)
